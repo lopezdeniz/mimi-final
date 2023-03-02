@@ -11,8 +11,8 @@
 
 		// *** /SMTP *** //
    
-    const SENDER = 'sender@yandex.ru';
-    const CATCHER = 'catcher@ya.ru';
+    const SENDER = 'mimisushi@h303859220.nichost.ru';
+    const CATCHER = 'lopesdenis@mail.ru';
     const SUBJECT = 'Заявка с сайта';
     const CHARSET = 'UTF-8';
     

@@ -25,7 +25,7 @@ main {
 
 .baner {
 position: absolute;
-width: 1042px;
+width: 1040px;
 height: 250px;
 left: 338px;
 top: 71px;
@@ -211,10 +211,10 @@ h5 {
     display: flex;
     align-items: center;
     position: absolute;
-    left: 1170px;
+    left: 1240px;
     background-color: #D80000;
     color: #fff;
-    width: 155px;
+    width: 90px;
     height: 40px;
     border-radius: 100px;
     text-decoration: none;
@@ -224,11 +224,55 @@ h5 {
 .btn-cart:hover {
     background-color: green;
 }
+
+.smart-basket__min { 
+   position: absolute;
+    padding: 10px 16px;
+    width: 130px;
+    height: 59px;
+    border-radius: 100px;
+    text-decoration: none;
+    border: none;
+    font-weight: 400;
+  font-size: 22px;
+    left: 0px;
+    background-color: #ffffff00;  
+}
+
+.mycart {
+    width: 57px;
+    height: 37px;
+margin-right: 20px;  
+color: #fff; 
+    
+}
+
+.smart-basket__min-count {
+    position: absolute;
+    left: 85px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .btn-call {
     display: flex;
     align-items: center;
     position: absolute;
-    left: 950px;
+    left: 1030px;
     background-color: #32CD32;
     color: #fff;
     width: 150px;

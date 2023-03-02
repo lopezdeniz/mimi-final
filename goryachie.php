@@ -21,7 +21,7 @@ include('nav.php')
 ?>
 
         <section class="fon-back">
-        <h2 class="menu-centr">СЕТЫ</h2>
+        <h2 class="menu-centr">ГОРЯЧИЕ БЛЮДА</h2>
 
 
 
@@ -34,20 +34,20 @@ include('nav.php')
         <!-- Карточка товара 1 -->
 <div class="block">
     <div class="card-price">
-  <img src="./img/set1-card.png"alt="">
-  <div class="card__label2">999&#8381</div>
+  <img src="./img/losos-na-paru-card.png"alt="">
+  <div class="card__label2">410&#8381</div>
 </div>
   <p class="text">
-  Филадельфия, Филадельфия с Креветкой, Калифорния Снежная, Калифорния с Лососем (990гр)</p>
-  <h2 class="text2"><span style="font-weight:bold">СЕТ №1 </span></h2>
+  Лосось, Соль, Рис паровой, Терияки (250гр)</p>
+  <h2 class="text2"><span style="font-weight:bold">Лосось на пару</span></h2>
   
   <div class="product__quantity"></div>
   <div class="btn-cont">
-    <a class="button" data-sb-id-or-vendor-code="СЕТ №1"
-  data-sb-product-name="СЕТ №1"
-  data-sb-product-price="999"
+    <a class="button" data-sb-id-or-vendor-code="Лосось на пару"
+  data-sb-product-name="Лосось на пару"
+  data-sb-product-price="410"
   data-sb-product-quantity="1"
-  data-sb-product-img="./img/set1-card.png" href="#">
+  data-sb-product-img="./img/losos-na-paru-card.png" href="#">
   Добавить</a>
   </div>
 </div>
@@ -55,19 +55,22 @@ include('nav.php')
 <!-- Карточка товара 1 -->
 <div class="block">
     <div class="card-price">
-  <img src="./img/set2-card.png"alt="">
-  <div class="card__label2">900&#8381</div>
+  <img src="./img/govyadina-card.png"alt="">
+  <div class="card__label2">260&#8381</div>
 </div>
-  <p class="text">Темпура Драгон, Темпура ролл с Креветкой, Темпура Калифорния, Темпура Филадельфия (990гр.)</p>
-  <h2 class="text2"><span style="font-weight:bold">СЕТ №2 Темпура</span></h2>
+  <p class="text">Шампиньоны, Лук репчатый, Чеснок, Говядина жареная, Соус, Соус Дашидо, Картофель фри, Соль (290гр.)</p>
+  <h2 class="text2"><span style="font-weight:bold">ГОВЯДИНА 
+С ШАМПИНЬОНАМИ</span></h2>
   
   <div class="product__quantity"></div>
   <div class="btn-cont">
-    <a class="button" data-sb-id-or-vendor-code="СЕТ №2 Темпура"
-  data-sb-product-name="СЕТ №2 Темпура"
-  data-sb-product-price="900"
+    <a class="button" data-sb-id-or-vendor-code="ГОВЯДИНА 
+С ШАМПИНЬОНАМИ"
+  data-sb-product-name="ГОВЯДИНА 
+С ШАМПИНЬОНАМИ"
+  data-sb-product-price="260"
   data-sb-product-quantity="1"
-  data-sb-product-img="./img/set2-card.png" href="#">
+  data-sb-product-img="./img/govyadina-card.png" href="#">
   Добавить</a>
   </div>
 </div>
@@ -75,28 +78,26 @@ include('nav.php')
 <!-- Карточка товара 1 -->
 <div class="block">
     <div class="card-price">
-  <img src="./img/set3-card.png"alt="">
-  <div class="card__label2">999&#8381</div>
+  <img src="./img/shnizel-card.png"alt="">
+  <div class="card__label2">320&#8381</div>
 </div>
-  <p class="text">Суши спайси Унаги, Суши спайси Лосось, Суши спайси Креветка(1000гр.)</p>
-  <h2 class="text2"><span style="font-weight:bold">СЕТ №3 Гункан</span></h2>
+  <p class="text">Куриное филе, Соль, Мука, Тесто темпурное, Сухари Панко
++ КАРТОФЕЛЬ ФРИ, Соль, Соус горчичный, Лимон(190гр.)</p>
+  <h2 class="text2"><span style="font-weight:bold">ШНИЦЕЛЬ 
+ИЗ КУРИНОГО ФИЛЕ</span></h2>
   
   <div class="product__quantity"></div>
   <div class="btn-cont">
-    <a class="button" data-sb-id-or-vendor-code="СЕТ №3 Гункан"
-  data-sb-product-name="СЕТ №3 Гункан"
-  data-sb-product-price="999"
+    <a class="button" data-sb-id-or-vendor-code="ШНИЦЕЛЬ 
+ИЗ КУРИНОГО ФИЛЕ"
+  data-sb-product-name="ШНИЦЕЛЬ 
+ИЗ КУРИНОГО ФИЛЕ"
+  data-sb-product-price="320"
   data-sb-product-quantity="1"
-  data-sb-product-img="./img/set3-card.png" href="#">
+  data-sb-product-img="./img/shnizel-card.png" href="#">
   Добавить</a>
   </div>
 </div>
-
-
-
-
-
-
 
 
 
@@ -169,7 +170,7 @@ include('nav.php')
     </main>
 
     <script src="js/script.js"></script>
-   
+    
 </body>
 
 </html>

@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/style2.css">
     <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="jquery-3.6.3.min.js"></script>
     <meta charset="UTF-8">
     <meta name="description" content="Бесплатная доставка суши, роллов и пиццы на дом — вкусно, дешево, быстро, заказ онлайн или по телефону. Мы готовим только из свежих продуктов высокого качества.">
     <meta name="keywords" content="доставка пиццы, заказ пиццы, пицца круглосуточно, суши, роллы, доставка суши, заказ суши, суши круглосуточно, доставка роллов, заказ роллов, роллы круглосуточно">
@@ -111,7 +112,7 @@ include('nav.php')
   <!-- Верхняя часть -->
   <div class="card__top">
     <!-- Изображение-ссылка товара -->
-    <a href="#" class="card__image">
+    <a href="fastfood.php" class="card__image">
       <img
         src="img/fastfood-card.png"
         alt="Роллы"
@@ -125,11 +126,11 @@ include('nav.php')
     <!-- Цены на товар (с учетом скидки и без)-->
     
     <!-- Ссылка-название товара -->
-    <a href="#" class="card__title">
-     фастфуд
+    <a href="fastfood.php" class="card__title">
+     Фастфуд
     </a>
     <!-- Кнопка добавить в корзину -->
-    <button class="card__add">Заказать</button>
+    <a href=fastfood.php class="roll-add2"><button class="card__add">Выбрать</button></a>
   </div>
 </div>
    
@@ -156,16 +157,44 @@ include('nav.php')
      Сеты
     </a>
     <!-- Кнопка добавить в корзину -->
-    <button class="card__add">Заказать</button>
+    <a href=sets.php.php class="roll-add2"><button class="card__add">Выбрать</button></a>
   </div>
 </div>
+
+  <!-- Карточка товара -->
+  <div class="card">
+  <!-- Верхняя часть -->
+  <div class="card__top">
+    <!-- Изображение-ссылка товара -->
+    <a href="goryachie.php" class="card__image">
+      <img
+        src="img/"
+        alt="Роллы"/>
+      />
+    </a>
+    <!-- Скидка на товар -->
+    <div class="card__label">-10%</div>
+  </div>
+  <!-- Нижняя часть -->
+  <div class="card__bottom">
+    <!-- Цены на товар (с учетом скидки и без)-->
+    
+    <!-- Ссылка-название товара -->
+    <a href="goryachie.php" class="card__title">
+     Горячие 
+    </a>
+    <!-- Кнопка добавить в корзину -->
+    <a href="goryachie.php" class="roll-add2"><button class="card__add">Выбрать</button></a>
+  </div>
+</div>
+
    
    <!-- Карточка товара -->
      <div class="card">
   <!-- Верхняя часть -->
   <div class="card__top">
     <!-- Изображение-ссылка товара -->
-    <a href="#" class="card__image">
+    <a href="salats.php" class="card__image">
       <img
         src="img/salats-card.png"
         alt="Роллы"/>
@@ -179,11 +208,11 @@ include('nav.php')
     <!-- Цены на товар (с учетом скидки и без)-->
     
     <!-- Ссылка-название товара -->
-    <a href="#" class="card__title">
+    <a href="salats.php" class="card__title">
      Салаты
     </a>
     <!-- Кнопка добавить в корзину -->
-    <button class="card__add">Заказать</button>
+    <a href=salats.php class="roll-add2"><button class="card__add">Выбрать</button></a>
   </div>
 </div>
    
@@ -192,7 +221,7 @@ include('nav.php')
   <!-- Верхняя часть -->
   <div class="card__top">
     <!-- Изображение-ссылка товара -->
-    <a href="#" class="card__image">
+    <a href="sope.php" class="card__image">
       <img
         src="img/sope-card.png"
         alt="Роллы"
@@ -206,11 +235,11 @@ include('nav.php')
     <!-- Цены на товар (с учетом скидки и без)-->
     
     <!-- Ссылка-название товара -->
-    <a href="#" class="card__title">
+    <a href="sope.php" class="card__title">
      Супы
     </a>
     <!-- Кнопка добавить в корзину -->
-    <button class="card__add">Заказать</button>
+    <a href="sope.php" class="roll-add2"><button class="card__add">Выбрать</button></a>
   </div>
 </div>
    
@@ -235,11 +264,11 @@ include('nav.php')
     <!-- Цены на товар (с учетом скидки и без)-->
     
     <!-- Ссылка-название товара -->
-    <a href="#" class="card__title">
+    <a href="vok.php" class="card__title">
      Вок
     </a>
     <!-- Кнопка добавить в корзину -->
-    <button class="card__add">Заказать</button>
+    <a href=salats.php class="roll-add2"><button class="card__add">Выбрать</button></a>
   </div>
 </div>
    
@@ -251,7 +280,7 @@ include('nav.php')
   <!-- Верхняя часть -->
   <div class="card__top">
     <!-- Изображение-ссылка товара -->
-    <a href="#" class="card__image">
+    <a href="tyahan.php" class="card__image">
       <img
         src="img/tyahan-card.png"
         alt="Роллы"
@@ -265,11 +294,11 @@ include('nav.php')
     <!-- Цены на товар (с учетом скидки и без)-->
     
     <!-- Ссылка-название товара -->
-    <a href="#" class="card__title">
+    <a href="tyahan.php" class="card__title">
      Тяхан
     </a>
     <!-- Кнопка добавить в корзину -->
-    <button class="card__add">Заказать</button>
+    <a href=salats.php class="roll-add2"><button class="card__add">Выбрать</button></a>
   </div>
 </div>
    
@@ -281,7 +310,7 @@ include('nav.php')
   <!-- Верхняя часть -->
   <div class="card__top">
     <!-- Изображение-ссылка товара -->
-    <a href="#" class="card__image">
+    <a href="poke.php" class="card__image">
       <img
         src="img/poke-card.png"
         alt="Роллы"
@@ -295,11 +324,11 @@ include('nav.php')
     <!-- Цены на товар (с учетом скидки и без)-->
     
     <!-- Ссылка-название товара -->
-    <a href="#" class="card__title">
+    <a href="poke.php" class="card__title">
      Поке
     </a>
     <!-- Кнопка добавить в корзину -->
-    <button class="card__add">Заказать</button>
+    <a href=salats.php class="roll-add2"><button class="card__add">Выбрать</button></a>
   </div>
 </div>
    
@@ -313,7 +342,7 @@ include('nav.php')
     <!-- Изображение-ссылка товара -->
     <a href="#" class="card__image">
       <img
-        src="./img/cart-rolls.jpg"
+        src="./img/mors-klukva-card.png"
         alt="Роллы"
       />
     </a>
@@ -325,43 +354,15 @@ include('nav.php')
     <!-- Цены на товар (с учетом скидки и без)-->
     
     <!-- Ссылка-название товара -->
-    <a href="#" class="card__title">
+    <a href="drinks.php" class="card__title">
      Напитки
     </a>
     <!-- Кнопка добавить в корзину -->
-    <button class="card__add">Заказать</button>
+    <a href=salats.php class="roll-add2"><button class="card__add">Выбрать</button></a>
   </div>
 </div>
    
-   <!-- Карточка товара -->
-     <div class="card">
-  <!-- Верхняя часть -->
-  <div class="card__top">
-    <!-- Изображение-ссылка товара -->
-    <a href="#" class="card__image">
-      <img
-        src="./img/cart-rolls.jpg"
-        alt="Роллы"
-      />
-    </a>
-    <!-- Скидка на товар -->
-    <div class="card__label">-10%</div>
-  </div>
-  <!-- Нижняя часть -->
-  <div class="card__bottom">
-    <!-- Цены на товар (с учетом скидки и без)-->
-    
-    <!-- Ссылка-название товара -->
-    <a href="#" class="card__title">
-     Симетрия?
-    </a>
-    
-    
-    
-    <!-- Кнопка добавить в корзину -->
-    <button class="card__add">Заказать</button>
-  </div>
-</div>
+   
    
    
     </div>
@@ -379,8 +380,12 @@ include('nav.php')
 
     </main>
 
+
+
+
+
     <script src="js/script.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    
 </body>
 
 </html>

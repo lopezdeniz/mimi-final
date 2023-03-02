@@ -21,7 +21,7 @@ include('nav.php')
 ?>
 
         <section class="fon-back">
-        <h2 class="menu-centr">СЕТЫ</h2>
+        <h2 class="menu-centr">ТЯХАН</h2>
 
 
 
@@ -34,20 +34,20 @@ include('nav.php')
         <!-- Карточка товара 1 -->
 <div class="block">
     <div class="card-price">
-  <img src="./img/set1-card.png"alt="">
-  <div class="card__label2">999&#8381</div>
+  <img src="./img/tyahan-php-card.png"alt="">
+  <div class="card__label2">260&#8381</div>
 </div>
   <p class="text">
-  Филадельфия, Филадельфия с Креветкой, Калифорния Снежная, Калифорния с Лососем (990гр)</p>
-  <h2 class="text2"><span style="font-weight:bold">СЕТ №1 </span></h2>
+  Капуста китайская, Цукини, Морковь, Перец разноцветный, Лук репчатый, Чеснок, Соевый светлый, Соус Терияки, Рис паровой, Яйцо, Кунжут, Перец ч/м (330гр)</p>
+  <h2 class="text2"><span style="font-weight:bold">ТЯХАН</span></h2>
   
   <div class="product__quantity"></div>
   <div class="btn-cont">
-    <a class="button" data-sb-id-or-vendor-code="СЕТ №1"
-  data-sb-product-name="СЕТ №1"
-  data-sb-product-price="999"
+    <a class="button" data-sb-id-or-vendor-code="ТЯХАН"
+  data-sb-product-name="ТЯХАН"
+  data-sb-product-price="260"
   data-sb-product-quantity="1"
-  data-sb-product-img="./img/set1-card.png" href="#">
+  data-sb-product-img="./img/tyahan-php-card.png" href="#">
   Добавить</a>
   </div>
 </div>
@@ -55,19 +55,19 @@ include('nav.php')
 <!-- Карточка товара 1 -->
 <div class="block">
     <div class="card-price">
-  <img src="./img/set2-card.png"alt="">
-  <div class="card__label2">900&#8381</div>
+  <img src="./img/tyahan-cura-card.png"alt="">
+  <div class="card__label2">310&#8381</div>
 </div>
-  <p class="text">Темпура Драгон, Темпура ролл с Креветкой, Темпура Калифорния, Темпура Филадельфия (990гр.)</p>
-  <h2 class="text2"><span style="font-weight:bold">СЕТ №2 Темпура</span></h2>
+  <p class="text">Капуста китайская, Цукини, Яйцо, Перец разноцветный, Лук репчатый, Чеснок, Соевый светлый, Бедро, Соус Терияки, Рис паровой, Морковь, Кунжут черный, Перец ч/м (370гр.)</p>
+  <h2 class="text2"><span style="font-weight:bold">ТЯХАН С КУРИЦЕЙ</span></h2>
   
   <div class="product__quantity"></div>
   <div class="btn-cont">
-    <a class="button" data-sb-id-or-vendor-code="СЕТ №2 Темпура"
-  data-sb-product-name="СЕТ №2 Темпура"
-  data-sb-product-price="900"
+    <a class="button" data-sb-id-or-vendor-code="ТЯХАН С КУРИЦЕЙ"
+  data-sb-product-name="ТЯХАН С КУРИЦЕЙ"
+  data-sb-product-price="310"
   data-sb-product-quantity="1"
-  data-sb-product-img="./img/set2-card.png" href="#">
+  data-sb-product-img="./img/tyahan-cura-card.png" href="#">
   Добавить</a>
   </div>
 </div>
@@ -75,28 +75,25 @@ include('nav.php')
 <!-- Карточка товара 1 -->
 <div class="block">
     <div class="card-price">
-  <img src="./img/set3-card.png"alt="">
-  <div class="card__label2">999&#8381</div>
+  <img src="./img/tyahan-more-card.png"alt="">
+  <div class="card__label2">320&#8381</div>
 </div>
-  <p class="text">Суши спайси Унаги, Суши спайси Лосось, Суши спайси Креветка(1000гр.)</p>
-  <h2 class="text2"><span style="font-weight:bold">СЕТ №3 Гункан</span></h2>
+  <p class="text">Капуста китайская, Цукини, Лосось, Морковь, Перец разноцв., Лук репчатый, Чеснок, Сое-вый светлый, Соус Терияки, Рис паровой, Креветки жареные (380гр.)</p>
+  <h2 class="text2"><span style="font-weight:bold">ТЯХАН 
+С МОРЕПРОДУКТАМИ</span></h2>
   
   <div class="product__quantity"></div>
   <div class="btn-cont">
-    <a class="button" data-sb-id-or-vendor-code="СЕТ №3 Гункан"
-  data-sb-product-name="СЕТ №3 Гункан"
-  data-sb-product-price="999"
+    <a class="button" data-sb-id-or-vendor-code="ТЯХАН 
+С МОРЕПРОДУКТАМИ"
+  data-sb-product-name="ТЯХАН 
+С МОРЕПРОДУКТАМИ"
+  data-sb-product-price="320"
   data-sb-product-quantity="1"
-  data-sb-product-img="./img/set3-card.png" href="#">
+  data-sb-product-img="./img/tyahan-more-card.png" href="#">
   Добавить</a>
   </div>
 </div>
-
-
-
-
-
-
 
 
 
@@ -169,7 +166,7 @@ include('nav.php')
     </main>
 
     <script src="js/script.js"></script>
-   
+    
 </body>
 
 </html>

@@ -22,8 +22,8 @@
   position: relative;
   display: inline-block;
   width: 266px;
-  height: 395;
-  min-height: 390px;
+  
+  min-height: 400px;
   color: rgb(0, 0, 0);
   border: 1px solid rgb(255, 255, 255);
   box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
@@ -58,7 +58,7 @@
 
 .button {
   width: 60px;
-  height: 40px;
+  max-height: 40px; 
   background-color: #fa0000;
   display: block;
   width: 100%;
@@ -76,6 +76,7 @@
 }
 .card-price {
   position: relative;
+ 
 }
 .card__label2 {
   position: absolute;
@@ -89,7 +90,18 @@
   font-weight: 600;
   font-size: 18px;
   color: #fff;
+} 
+.card__label3 {
+  position:absolute;
+  
+  background: #ff0000;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 18px;
+  color: #fff;
 }
+
+
 
 .text2 {
 
@@ -142,3 +154,5 @@ margin-left: -123px;
     margin-top: 60px;
     margin-left: -125px;
   }
+
+ 

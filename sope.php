@@ -21,7 +21,7 @@ include('nav.php')
 ?>
 
         <section class="fon-back">
-        <h2 class="menu-centr">СЕТЫ</h2>
+        <h2 class="menu-centr">СУПЫ</h2>
 
 
 
@@ -34,20 +34,21 @@ include('nav.php')
         <!-- Карточка товара 1 -->
 <div class="block">
     <div class="card-price">
-  <img src="./img/set1-card.png"alt="">
-  <div class="card__label2">999&#8381</div>
+  <img src="./img/fo-bo-card.png"alt="">
+  <div class="card__label2">399&#8381</div>
 </div>
   <p class="text">
-  Филадельфия, Филадельфия с Креветкой, Калифорния Снежная, Калифорния с Лососем (990гр)</p>
-  <h2 class="text2"><span style="font-weight:bold">СЕТ №1 </span></h2>
+  База Фо Бо, Лук зелёный, Лапша Арой Д отварная, Говядина отварная, Ростки сои, Лук красный п/ф,  Кинза св. п/ф. ОТДЕЛЬНО: Лайм, Уксус с чесноком и чили.
+На доставку + Шрираши (700гр)</p>
+  <h2 class="text2"><span style="font-weight:bold">Фо-Бо</span></h2>
   
   <div class="product__quantity"></div>
   <div class="btn-cont">
-    <a class="button" data-sb-id-or-vendor-code="СЕТ №1"
-  data-sb-product-name="СЕТ №1"
-  data-sb-product-price="999"
+    <a class="button" data-sb-id-or-vendor-code="Фо-Бо"
+  data-sb-product-name="Фо-Бо"
+  data-sb-product-price="399"
   data-sb-product-quantity="1"
-  data-sb-product-img="./img/set1-card.png" href="#">
+  data-sb-product-img="./img/fo-bo-card.png" href="#">
   Добавить</a>
   </div>
 </div>
@@ -55,19 +56,19 @@ include('nav.php')
 <!-- Карточка товара 1 -->
 <div class="block">
     <div class="card-price">
-  <img src="./img/set2-card.png"alt="">
-  <div class="card__label2">900&#8381</div>
+  <img src="./img/tomyam-card.png"alt="">
+  <div class="card__label2">350&#8381</div>
 </div>
-  <p class="text">Темпура Драгон, Темпура ролл с Креветкой, Темпура Калифорния, Темпура Филадельфия (990гр.)</p>
-  <h2 class="text2"><span style="font-weight:bold">СЕТ №2 Темпура</span></h2>
+  <p class="text">Креветки, Кинза, Кальмары бланш, Том Ям, Шампиньоны бланш, Черри, Перец чили красный (340гр.)</p>
+  <h2 class="text2"><span style="font-weight:bold">Том-Ям Сифуд </span></h2>
   
   <div class="product__quantity"></div>
   <div class="btn-cont">
-    <a class="button" data-sb-id-or-vendor-code="СЕТ №2 Темпура"
-  data-sb-product-name="СЕТ №2 Темпура"
-  data-sb-product-price="900"
+    <a class="button" data-sb-id-or-vendor-code="Том-Ям Сифуд"
+  data-sb-product-name="Том-Ям Сифуд"
+  data-sb-product-price="350"
   data-sb-product-quantity="1"
-  data-sb-product-img="./img/set2-card.png" href="#">
+  data-sb-product-img="./img/tomyam-card.png" href="#">
   Добавить</a>
   </div>
 </div>
@@ -75,45 +76,24 @@ include('nav.php')
 <!-- Карточка товара 1 -->
 <div class="block">
     <div class="card-price">
-  <img src="./img/set3-card.png"alt="">
-  <div class="card__label2">999&#8381</div>
+  <img src="./img/miso-card.png"alt="">
+  <div class="card__label2">210&#8381</div>
 </div>
-  <p class="text">Суши спайси Унаги, Суши спайси Лосось, Суши спайси Креветка(1000гр.)</p>
-  <h2 class="text2"><span style="font-weight:bold">СЕТ №3 Гункан</span></h2>
+  <p class="text">Бульон Мисо (330гр.)</p>
+  <h2 class="text2"><span style="font-weight:bold">Мисо</span></h2>
   
   <div class="product__quantity"></div>
   <div class="btn-cont">
-    <a class="button" data-sb-id-or-vendor-code="СЕТ №3 Гункан"
-  data-sb-product-name="СЕТ №3 Гункан"
-  data-sb-product-price="999"
+    <a class="button" data-sb-id-or-vendor-code="Мисо"
+  data-sb-product-name="Мисо"
+  data-sb-product-price="210"
   data-sb-product-quantity="1"
-  data-sb-product-img="./img/set3-card.png" href="#">
+  data-sb-product-img="./img/miso-card.png" href="#">
   Добавить</a>
   </div>
 </div>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-                  
 
 
 
@@ -169,7 +149,7 @@ include('nav.php')
     </main>
 
     <script src="js/script.js"></script>
-   
+    
 </body>
 
 </html>
