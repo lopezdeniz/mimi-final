@@ -157,7 +157,7 @@ include('nav.php')
      Сеты
     </a>
     <!-- Кнопка добавить в корзину -->
-    <a href=sets.php.php class="roll-add2"><button class="card__add">Выбрать</button></a>
+    <a href=sets.php class="roll-add2"><button class="card__add">Выбрать</button></a>
   </div>
 </div>
 
