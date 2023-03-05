@@ -9,9 +9,11 @@
     <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
     <script type="text/javascript" src="jquery-3.6.3.min.js"></script>
     <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Бесплатная доставка суши, роллов и пиццы на дом — вкусно, дешево, быстро, заказ онлайн или по телефону. Мы готовим только из свежих продуктов высокого качества.">
     <meta name="keywords" content="доставка пиццы, заказ пиццы, пицца круглосуточно, суши, роллы, доставка суши, заказ суши, суши круглосуточно, доставка роллов, заказ роллов, роллы круглосуточно">
-
+    
 </head>
 
 <body>
@@ -20,7 +22,7 @@ include('nav.php')
 ?>
 
         <section class="fon-back">
-        <h2 class="menu-centr">МЕНЮ</h2>
+        <div class="mytext-centr"><h2 class="menu-centr">МЕНЮ</h2></div>
 
 
     <div class="cards" >
@@ -168,7 +170,7 @@ include('nav.php')
     <!-- Изображение-ссылка товара -->
     <a href="goryachie.php" class="card__image">
       <img
-        src="img/"
+        src="img/govyadina-card.png"
         alt="Роллы"/>
       />
     </a>
@@ -340,7 +342,7 @@ include('nav.php')
   <!-- Верхняя часть -->
   <div class="card__top">
     <!-- Изображение-ссылка товара -->
-    <a href="#" class="card__image">
+    <a href="drinks.php" class="card__image">
       <img
         src="./img/mors-klukva-card.png"
         alt="Роллы"
@@ -358,7 +360,7 @@ include('nav.php')
      Напитки
     </a>
     <!-- Кнопка добавить в корзину -->
-    <a href=salats.php class="roll-add2"><button class="card__add">Выбрать</button></a>
+    <a href=drinks.php class="roll-add2"><button class="card__add">Выбрать</button></a>
   </div>
 </div>
    

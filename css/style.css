@@ -2,15 +2,13 @@ body {
 margin: 0;
 font-family: 'Inter-Regular';
 font-size: 16px;
+
 }
 
 
 
 
-main {
-    
-    
-}
+
 
 @font-face {
     font-family: Inter-Regular;
@@ -23,11 +21,18 @@ main {
 }
 
 
+.container2{
+    width: 100%;
+}
+
+
+
+
 .baner {
 position: absolute;
-width: 1040px;
+width: 100%;
 height: 250px;
-left: 338px;
+
 top: 71px;
 background: #181717
 }
@@ -48,101 +53,213 @@ font-size: 24px;
 line-height: 29px;    
 }
 
-.fon-back {
-background-color: white;  
+
+
+@media only screen and (min-width: 1400px) {
+    .btn-call2, .button-700 {
+        display: none;  
+    }
+}
+@media only screen and (min-width: 1300px) {
+    .btn-call2, .button-700 {
+        display: none;  
+    }
+}
+@media only screen and (min-width: 1024px) {
+    .btn-call2, .button-700 {
+        display: none;  
+    }
+}
+@media only screen and (min-width: 1000px) {
+    .btn-call2, .button-700 {
+        display: none;  
+    }
+}
+@media only screen and (min-width: 900px) {
+    .btn-call2, .button-700 {
+        display: none;  
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    .btn-call2 {
+        display: none;  
+    }
+}
+
+
+
+
+@media only screen and (max-width: 700px) {
+    .menu, .clock, .time, .separator, .car, .delivery, .baner, .btn-call2 {
+    display: none;
+    }
+    .btn-call2 {
+        margin-left: -236% !important;
+        margin-top: 10px;
+    }
 }
 
 
 
 
 
+
+
+
+@media only screen and (max-width: 800px) {
+    .menu, .clock, .time, .separator, .car, .delivery, .baner {
+     display: none;
+     }
+     }
+
+
+ @media only screen and (max-width: 700px) {
+
+        header {
+            background-color: #000;
+            width: 100%;
+            height: 120px;
+        }
+    }
+
+    @media only screen and (max-width: 1900px) {
+        .btn-cart {
+            
+            left: 1436px;
+        }
+        .btn-call {
+            
+            left: 1230px;
+        }
+
+
+
+    } 
+       
+@media only screen and (max-width: 700px) {
+     .my-buttons {
+        display: none;
+    }
+
+    .logo {
+        margin: 0px 38px !important;
+    }
+
+
+     .mytext-centr {
+        position: absolute;
+        left: -140% !important;
+        top: -10%;
+        }
+
+
+        
+.menu-centr {
+    margin-left: -170px !important;
+}
+
+
+.modal-dialog {
+    
+    margin-top: 207px;
+}
+
+
+
+
+
+
+    }
+
+
+
+    .rounded-input {
+        padding:10px;
+        border-radius:10px;
+      }
+
+
+input {
+    width: 68%;
+  }
+
+
+  input[type=text] {
+    padding: 21px;
+    border:0;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+  }
+  .border-bottom-input {
+    border:0;  
+    border-bottom:1px solid #eee;  
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+    @media only screen and (max-width: 700px) {
+        .menu-centr2 {
+            margin-top: -26px;
+            margin-left: -726px !important;
+        }
+    }
+    
+   
+
+    .btn-call2 {
+            display: flex;
+            align-items: center;
+            position: absolute;
+            left: 1030px;
+            background-color: #32CD32;
+            color: #fff;
+            width: 150px;
+            height: 40px;
+            border-radius: 100px;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+
+        .btn-call2:hover {
+            background-color: #2d9d2d;
+        }
+    
+        .call-text2 {
+            text-align: center;
+            margin: 18px;
+            font-weight: 600;
+        }
+
+.my-buttons {
+    padding-bottom: 60px ;
+    
+}
+
+.fon-back {
+    background-color: white;  
+    }
 
 header {
-    background-image: url(../img/header-background.jpg)
-}
-
-/* Burger menu  */
-
-#menu__toggle {
-    opacity: 0;
-}
-#menu__toggle:checked ~ .menu__btn > span {
-    transform: rotate(45deg);
-}
-#menu__toggle:checked ~ .menu__btn > span::before {
-    top: 0;
-    transform: rotate(0);
-}
-#menu__toggle:checked ~ .menu__btn > span::after {
-    top: 0;
-    transform: rotate(90deg);
-}
-#menu__toggle:checked ~ .menu__box {
-    visibility: visible;
-    left: 0;
-}
-.menu__btn {
-    display: flex;
-    align-items: center;
-    position: fixed;
-    top: 20px;
-    left: 20px;
-    width: 26px;
-    height: 26px;
-    cursor: pointer;
-    z-index: 1;
-}
-.menu__btn > span,
-.menu__btn > span::before,
-.menu__btn > span::after {
-    display: block;
-    position: absolute;
+    background-color: #000;
     width: 100%;
-    height: 2px;
-    background-color: red;
-    transition-duration: .25s;
-}
-.menu__btn > span::before {
-    content: '';
-    top: -8px;
-}
-.menu__btn > span::after {
-    content: '';
-    top: 8px;
-}
-.menu__box {
-    display: block;
-    position: fixed;
-    visibility: hidden;
-    top: 0;
-    left: -100%;
-    width: 300px;
-    height: 100%;
-    
-        color: black;
-    
-    margin: 0;
-    padding: 80px 0;
-    list-style: none;
-    background-color: #ECEFF1;
-    box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
-    transition-duration: .25s;
-}
-.menu__item {
-    display: block;
-    padding: 12px 24px;
-    color: black;
-    font-family: Inter-Regular, sans-serif;
-    font-size: 20px;
-    font-weight: 600;
-    text-decoration: none;
-    transition-duration: .25s;
-}
-.menu__item:hover {
-    background-color: #CFD8DC;
 }
 
-/* Burger menu fin */
+
+
+
+
+
+
+
 
 .header {
     margin: 0px 166px padding-top 50px;
@@ -211,7 +328,7 @@ h5 {
     display: flex;
     align-items: center;
     position: absolute;
-    left: 1240px;
+    left: 1195px;
     background-color: #D80000;
     color: #fff;
     width: 90px;
@@ -260,19 +377,11 @@ color: #fff;
 
 
 
-
-
-
-
-
-
-
-
 .btn-call {
     display: flex;
     align-items: center;
     position: absolute;
-    left: 1030px;
+    left: 1000px;
     background-color: #32CD32;
     color: #fff;
     width: 150px;
@@ -403,7 +512,7 @@ left: 50px;
 .menu-centr {
 position: absolute;
 top: 340px;
-left: 770px;
+left: 880px;
 }
 
 .cont-prod {
@@ -441,7 +550,97 @@ padding-left: 400px;
 
 
 
+/* Burger menu  */
 
+#menu__toggle {
+    opacity: 0;
+}
+#menu__toggle:checked ~ .menu__btn > span {
+    transform: rotate(45deg);
+}
+#menu__toggle:checked ~ .menu__btn > span::before {
+    top: 0;
+    transform: rotate(0);
+}
+#menu__toggle:checked ~ .menu__btn > span::after {
+    top: 0;
+    transform: rotate(90deg);
+}
+#menu__toggle:checked ~ .menu__box {
+    visibility: visible;
+    left: 0;
+}
+.menu__btn {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    z-index: 1;
+}
+.menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: red;
+    transition-duration: .25s;
+}
+.menu__btn > span::before {
+    content: '';
+    top: -8px;
+}
+.menu__btn > span::after {
+    content: '';
+    top: 8px;
+    
+}
+.menu__box {
+    display: block;
+    position: fixed;
+    visibility: hidden;
+    top: 1;
+    left: -100%;
+    width: 222px;
+    height: 100%;
+    
+        color: black;
+    
+    margin: 0;
+    padding: 80px 0;
+    list-style: none;
+    background-color: #ECEFF1;
+    box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+    transition-duration: .25s;
+    z-index:55;
+}
+.menu__item {
+    display: block;
+    padding: 12px 24px;
+    color: black;
+    font-family: Inter-Regular, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    transition-duration: .25s;
+}
+.menu__item:hover {
+    background-color: #CFD8DC;
+}
+
+@media only screen and (min-width: 800px) {
+    .hamburger-menu{
+    display: none;
+    }
+    }
+
+
+/* Burger menu fin */
 
 
 
@@ -566,6 +765,7 @@ padding-left: 400px;
     position: relative;
     width: auto;
     margin: 10px;
+    margin-top: 207px;
 }
 @media (min-width: 576px) {
     .modal-dialog {
@@ -626,7 +826,20 @@ padding-left: 400px;
     line-height: 1.5;
     font-size: 1.25rem;
     font-weight: 500;
+    margin: 0 auto;
 }
+
+.send-button {
+    
+     
+   padding: 10px 10px;
+  width: 81%;
+  display: flex;
+  justify-content: center;
+}
+
+
+
 
 /* Стили кнопки "х" ("Закрыть")  */
 

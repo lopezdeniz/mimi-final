@@ -10,6 +10,7 @@
     <script type="text/javascript" src="jquery-3.6.3.min.js"></script>
     <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Бесплатная доставка суши, роллов и пиццы на дом — вкусно, дешево, быстро, заказ онлайн или по телефону. Мы готовим только из свежих продуктов высокого качества.">
     <meta name="keywords" content="доставка пиццы, заказ пиццы, пицца круглосуточно, суши, роллы, доставка суши, заказ суши, суши круглосуточно, доставка роллов, заказ роллов, роллы круглосуточно">
 
@@ -21,7 +22,7 @@ include('nav.php')
 ?>
 
         <section class="fon-back">
-        <h2 class="menu-centr">ГОРЯЧИЕ БЛЮДА</h2>
+        <div class="mytext-centr"><h2 class="menu-centr">ГОРЯЧИЕ БЛЮДА</h2></div>
 
 
 

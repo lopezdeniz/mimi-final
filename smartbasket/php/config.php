@@ -15,4 +15,4 @@
     const CATCHER = 'lopesdenis@mail.ru';
     const SUBJECT = 'Заявка с сайта';
     const CHARSET = 'UTF-8';
-    
+    ?>

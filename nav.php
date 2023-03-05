@@ -1,4 +1,6 @@
+
 <header class="header">
+  
         <div class="logo">
             <a href="index.php"><img src="img/logo.png" alt="Logo"></a>
         </div>
@@ -21,7 +23,7 @@
 
 
 
-
+<div class="my-buttons">
         <a class="btn-call" href="tel:+79932342397">
             <i class="fa fa-phone fa-2x" aria-hidden="true"></i>
             <div class="call-text">
@@ -31,7 +33,7 @@
         <a class="btn-cart" href="">
             <img class="mycart" src="img/mycart.png">
         </a>
-
+</div>
 
         <div class="hamburger-menu">
             <input id="menu__toggle" type="checkbox" />
@@ -60,8 +62,13 @@
     </header>
 
     <main>
-
-
+<div class="button-700">
+    <a class="btn-call2" href="tel:+79932342397">
+            <i class="fa fa-phone fa-2x" aria-hidden="true"></i>
+            <div class="call-text2">
+                <h4> Позвонить нам</h4></div>
+        </a>
+</div>
 
         <section class="baner">
 
@@ -113,7 +120,7 @@
                 <div class="modal-dialog">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h3 class="modal-title">Заголовок</h3>
+                            <h3 class="modal-title">Мы вам перезвоним!</h3>
                             <a href="#close" title="Close" class="close">×</a>
                         </div>
                         <div class="modal-body">
@@ -121,7 +128,7 @@
                                 <form action="send.php" method="post">
                                     <input type="text" name="fio" placeholder="Ваше имя" required>
                                     <input type="text" name="phone" placeholder="Ваш телефон" required>
-                                    <input type="submit" value="Отправить">
+                                    <input class="send-button" type="submit" value="Отправить">
                                 </form>
                             </ul>
                         </div>
@@ -173,4 +180,4 @@
 
 
 </main>
-
+    
