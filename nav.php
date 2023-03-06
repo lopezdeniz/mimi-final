@@ -71,7 +71,7 @@
 </div>
 
         <section class="baner">
-
+<img class="baner-site" src="img/baner.png">
         </section>
 <!-- Меню боковое -->
         <section class="menu">

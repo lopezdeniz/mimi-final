@@ -11,7 +11,9 @@ $phone = trim($phone);
 //echo "<br>";
 //echo $phone;
 if (mail("lopesdenis@mail.ru", "Заявка с сайта", "ФИО:".$fio.". Телефон: ".$phone ,"From: mimisushi@h303859220.nichost.ru \r\n"))
- {     echo "сообщение успешно отправлено"; 
+ {     echo "<p style='font-size: 55px;'>сообщение успешно отправлено </p>"; 
+      
+echo "<p style='text-align:center;'><button style='width:600px;height:200px;font-size:55px;'><a href='https://www.mimisushi.space'>Вернуться на сайт</a></button></p>";
 } else { 
-    echo "при отправке сообщения возникли ошибки";
+    echo "<p style='font-size: 55px;'>при отправке сообщения возникли ошибки</p>";
 }?>
