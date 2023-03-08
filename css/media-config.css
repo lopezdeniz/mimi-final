@@ -1,0 +1,260 @@
+@media only screen and (max-width: 1319px) {
+
+    .btn-cart {
+        left: 969px;     
+        
+    }
+    .btn-call {
+        
+        left: 772px;
+    }
+
+    .cards {
+        max-width: 989px;
+        width: 70%;
+    }
+
+    .cards2 {
+        max-width: 989px;        
+        width: 70%;
+
+    }
+
+    menu-centr {
+        left: 673px;
+    }
+
+}
+
+@media only screen and (min-width: 1131px) {
+
+    .cards2 {
+    width: 65%;
+    }
+}
+
+@media only screen and (max-width: 1217px) {
+
+    .cards {
+        max-width: 755px;
+    }
+
+
+    .menu-centr {
+        left: 701px;
+    }
+}
+
+
+@media only screen and (max-width: 1097px) {
+    .menu, .clock, .time, .separator, .car, .delivery, .baner {
+        display: none;
+        }
+
+        header {
+            padding-top: 50px;
+        }
+
+        .logo {
+            margin: 0px 278px;
+        }
+.logo-img {
+width: 524px;
+}
+
+
+.cards {
+    padding-top: 192px;
+    padding-left: 0px;
+
+
+}
+
+.menu-centr {
+    left: 518px;
+    top: 255px;
+
+}
+
+.pulse-button {
+    right: 93px;
+}
+
+
+.btn-call{
+    width: 58px;
+    left: 829px;
+
+}
+ .btn-cart{
+    left: 937px !important;
+
+ }
+
+ .call-text {
+    display: none;
+}
+
+.cards2 {
+    padding-top: 151px;
+    padding-left: 17px;
+
+}
+
+
+}
+
+@media only screen and (min-width: 1098px) {
+    .hamburger-menu, .btn-call2 {
+        display: none;
+        }
+
+    }
+
+
+
+    @media only screen and (max-width: 1318px) {
+         .btn-cart{
+            left: 979px
+         }
+    }
+
+    @media only screen and (max-width: 1066px) {
+        .logo {
+            margin: 0px;
+        }
+        .btn-call {
+        left: 548px;
+        }
+
+        .btn-cart {
+            left: 663px !important;
+
+
+        }
+
+    }
+
+
+
+    @media only screen and (max-width: 1039px) {
+
+        .menu-centr {
+            left: 418px;
+        }
+    }
+
+    @media only screen and (max-width: 796px) {
+        .menu-centr {
+            left: 301px;
+        }
+        .btn-call, .btn-cart {
+            display: none;
+        }
+
+
+    }
+
+    @media only screen and (max-width: 796px) {
+.btn-call2 {
+
+        margin-left: -743px !important;
+        margin-top: 10px !important;
+    z-index: 100 !important;
+}
+    }
+
+
+    @media only screen and (max-width: 700px) {
+        .btn-call2 {
+            margin-left: -804px !important;
+        }
+
+        .menu-centr {
+            left: 264px;
+        }
+
+    }
+
+
+    @media only screen and (max-width: 561px) {
+        .menu-centr {
+            left: 194px;
+        }
+
+        .btn-call2 {
+            margin-left: -873px !important;
+        }
+    }
+
+
+    @media only screen and (max-width: 685px) {
+        .cards {
+            max-width: 989px;
+            width: 80% !important;
+        }
+
+    }
+
+    @media only screen and (max-width: 599px) {
+        .cards {
+            
+            width: 90% !important;
+        }
+
+        .btn-call2 {
+            margin-left: -873px !important;
+        }
+
+
+    }
+   
+    @media only screen and (max-width: 599px) {
+        .logo-img {
+            width: 200px;
+        }
+
+
+        .btn-call2 {
+            margin-left: -919px !important;
+        }
+
+        .menu-centr {
+            left: 170px;
+            top: 204px;
+        }
+
+
+        .pulse-button {
+            right: 16px;
+            margin-bottom: -11px;
+        }
+
+
+        .cards {
+            width: 100% !important;
+            column-gap: 3px;
+            row-gap: 7px;
+            grid-template-columns: repeat(auto-fill, 170px);
+        }
+        .card {
+            width: 160px;
+        }
+
+        .card__title {
+            
+            margin-left: 38px;
+        }
+    }
+
+    @media only screen and (max-width: 370px) {
+
+        .btn-call2 {
+            margin-left: -946px !important;
+        }
+
+        .menu-centr {
+            left: 135px;
+            top: 204px;
+        }
+    }

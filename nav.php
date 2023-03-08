@@ -2,7 +2,7 @@
 <header class="header">
   
         <div class="logo">
-            <a href="index.php"><img src="img/logo.png" alt="Logo"></a>
+            <a href="index.php"><img class="logo-img" src="img/logo.png" alt="Logo"></a>
         </div>
 
         <div class="clock">

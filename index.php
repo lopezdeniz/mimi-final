@@ -6,6 +6,7 @@
     <title>Доставка суши, роллов и пиццы Кострома - МиМи суши</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/style2.css">
+    <link rel="stylesheet" href="css/media-config.css">
     <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
     <script type="text/javascript" src="jquery-3.6.3.min.js"></script>
     <meta charset="UTF-8">
