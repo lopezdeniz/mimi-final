@@ -4,6 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title>Доставка суши, роллов и пиццы Кострома - МиМи суши</title>
+    <link href="https://lk.easynetshop.ru/frontend/v5/ens-4e44247d.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/style2.css">
     <link rel="stylesheet" href="css/style3.css">
@@ -43,14 +44,9 @@ include('nav.php')
   Лосось, Соль, Рис паровой, Терияки (250гр)</p>
   <h2 class="text2"><span style="font-weight:bold">Лосось на пару</span></h2>
   
-  <div class="product__quantity"></div>
+  
   <div class="btn-cont">
-    <a class="button" data-sb-id-or-vendor-code="Лосось на пару"
-  data-sb-product-name="Лосось на пару"
-  data-sb-product-price="410"
-  data-sb-product-quantity="1"
-  data-sb-product-img="./img/losos-na-paru-card.png" href="#">
-  Добавить</a>
+  <a class="btn-ens-action" data-rel="4e44247d307637">Добавить</a>
   </div>
 </div>
 
@@ -64,16 +60,9 @@ include('nav.php')
   <h2 class="text2"><span style="font-weight:bold">ГОВЯДИНА 
 С ШАМПИНЬОНАМИ</span></h2>
   
-  <div class="product__quantity"></div>
+  
   <div class="btn-cont">
-    <a class="button" data-sb-id-or-vendor-code="ГОВЯДИНА 
-С ШАМПИНЬОНАМИ"
-  data-sb-product-name="ГОВЯДИНА 
-С ШАМПИНЬОНАМИ"
-  data-sb-product-price="260"
-  data-sb-product-quantity="1"
-  data-sb-product-img="./img/govyadina-card.png" href="#">
-  Добавить</a>
+  <a class="btn-ens-action" data-rel="4e44247d307638">Добавить</a>
   </div>
 </div>
 
@@ -88,16 +77,9 @@ include('nav.php')
   <h2 class="text2"><span style="font-weight:bold">ШНИЦЕЛЬ 
 ИЗ КУРИНОГО ФИЛЕ</span></h2>
   
-  <div class="product__quantity"></div>
+  
   <div class="btn-cont">
-    <a class="button" data-sb-id-or-vendor-code="ШНИЦЕЛЬ 
-ИЗ КУРИНОГО ФИЛЕ"
-  data-sb-product-name="ШНИЦЕЛЬ 
-ИЗ КУРИНОГО ФИЛЕ"
-  data-sb-product-price="320"
-  data-sb-product-quantity="1"
-  data-sb-product-img="./img/shnizel-card.png" href="#">
-  Добавить</a>
+  <a class="btn-ens-action" data-rel="4e44247d307639">Добавить</a>
   </div>
 </div>
 
@@ -172,6 +154,9 @@ include('nav.php')
     </main>
 
     <script src="js/script.js"></script>
+    <script defer src="https://lk.easynetshop.ru/frontend/v5/ens-4e44247d.js"></script>
+    <style>.powered {display:none}</style>
+  
     
 </body>
 

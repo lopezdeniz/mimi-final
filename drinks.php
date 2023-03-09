@@ -4,6 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title>Доставка суши, роллов и пиццы Кострома - МиМи суши</title>
+    <link href="https://lk.easynetshop.ru/frontend/v5/ens-4e44247d.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/style2.css">
     <link rel="stylesheet" href="css/style3.css">
@@ -71,14 +72,9 @@ include('nav.php')
  (0.5л)</p>
   <h2 class="text2"><span style="font-weight:bold">МОРС КЛЮКВЕННЫЙ</span></h2>
   
-  <div class="product__quantity"></div>
+  
   <div class="btn-cont">
-    <a class="button" data-sb-id-or-vendor-code="МОРС КЛЮКВЕННЫЙ"
-  data-sb-product-name="МОРС КЛЮКВЕННЫЙ"
-  data-sb-product-price="115"
-  data-sb-product-quantity="1"
-  data-sb-product-img="./img/mors-klukva-card.png" href="#">
-  Добавить</a>
+  <a class="btn-ens-action" data-rel="4e44247d307651">Добавить</a>
   </div>
 </div>
 
@@ -96,14 +92,9 @@ include('nav.php')
  (0.5л)</p>
   <h2 class="text2"><span style="font-weight:bold">МОРС ОБЛЕПИХОВЫЙ</span></h2>
   
-  <div class="product__quantity"></div>
+  
   <div class="btn-cont">
-    <a class="button" data-sb-id-or-vendor-code="МОРС ОБЛЕПИХОВЫЙ"
-  data-sb-product-name="МОРС ОБЛЕПИХОВЫЙ"
-  data-sb-product-price="115"
-  data-sb-product-quantity="1"
-  data-sb-product-img="./img/mors-oblepiha-card.png" href="#">
-  Добавить</a>
+  <a class="btn-ens-action" data-rel="4e44247d307652">Добавить</a>
   </div>
 </div>
 
@@ -123,16 +114,9 @@ include('nav.php')
   <h2 class="text2"><span style="font-weight:bold">МОРС ЧЕРНАЯ 
 СМОРОДИНА</span></h2>
   
-  <div class="product__quantity"></div>
+  
   <div class="btn-cont">
-    <a class="button" data-sb-id-or-vendor-code="МОРС ЧЕРНАЯ 
-СМОРОДИНА"
-  data-sb-product-name="МОРС ЧЕРНАЯ 
-СМОРОДИНА"
-  data-sb-product-price="115"
-  data-sb-product-quantity="1"
-  data-sb-product-img="./img/smorodina-card.png" href="#">
-  Добавить</a>
+  <a class="btn-ens-action" data-rel="4e44247d307653">Добавить</a>
   </div>
 </div>
 
@@ -148,14 +132,9 @@ include('nav.php')
  (0,5л)</p>
   <h2 class="text2"><span style="font-weight:bold">Колла</span></h2>
   
-  <div class="product__quantity"></div>
+  
   <div class="btn-cont">
-    <a class="button" data-sb-id-or-vendor-code="Колла"
-  data-sb-product-name="Колла"
-  data-sb-product-price="100"
-  data-sb-product-quantity="1"
-  data-sb-product-img="./img/colla-card.png" href="#">
-  Добавить</a>
+  <a class="btn-ens-action" data-rel="4e44247d307654">Добавить</a>
   </div>
 </div>
 
@@ -170,14 +149,9 @@ include('nav.php')
  (0,5л)</p>
   <h2 class="text2"><span style="font-weight:bold">ПЕПСИ</span></h2>
   
-  <div class="product__quantity"></div>
+  
   <div class="btn-cont">
-    <a class="button" data-sb-id-or-vendor-code="ПЕПСИ"
-  data-sb-product-name="ПЕПСИ"
-  data-sb-product-price="100"
-  data-sb-product-quantity="1"
-  data-sb-product-img="./img/pepsi-card.png" href="#">
-  Добавить</a>
+  <a class="btn-ens-action" data-rel="4e44247d307655">Добавить</a>
   </div>
 </div>
 
@@ -193,14 +167,9 @@ include('nav.php')
  (0,3л)</p>
   <h2 class="text2"><span style="font-weight:bold">ЧАЙ</span></h2>
   
-  <div class="product__quantity"></div>
+  
   <div class="btn-cont">
-    <a class="button" data-sb-id-or-vendor-code="ЧАЙ"
-  data-sb-product-name="ЧАЙ"
-  data-sb-product-price="30"
-  data-sb-product-quantity="1"
-  data-sb-product-img="./img/tee-card.pngg" href="#">
-  Добавить</a>
+  <a class="btn-ens-action" data-rel="4e44247d307656">Добавить</a>
   </div>
 </div>
 
@@ -218,14 +187,9 @@ include('nav.php')
  (0,3л)</p>
   <h2 class="text2"><span style="font-weight:bold">КОФЕ</span></h2>
   
-  <div class="product__quantity"></div>
+  
   <div class="btn-cont">
-    <a class="button" data-sb-id-or-vendor-code="КОФЕ"
-  data-sb-product-name="КОФЕ"
-  data-sb-product-price="30"
-  data-sb-product-quantity="1"
-  data-sb-product-img="./img/coffe.png" href="#">
-  Добавить</a>
+  <a class="btn-ens-action" data-rel="4e44247d307657">Добавить</a>
   </div>
 </div>
 
@@ -244,14 +208,9 @@ include('nav.php')
  (0,5л)</p>
   <h2 class="text2"><span style="font-weight:bold">СОК НАТУРАЛЬНЫЙ</span></h2>
   
-  <div class="product__quantity"></div>
+  
   <div class="btn-cont">
-    <a class="button" data-sb-id-or-vendor-code="СОК НАТУРАЛЬНЫЙ"
-  data-sb-product-name="СОК НАТУРАЛЬНЫЙ"
-  data-sb-product-price="150"
-  data-sb-product-quantity="1"
-  data-sb-product-img="./img/juce-card.png" href="#">
-  Добавить</a>
+  <a class="btn-ens-action" data-rel="4e44247d307658">Добавить</a>
   </div>
 </div>
     
@@ -298,6 +257,9 @@ include('nav.php')
     </main>
 
     <script src="js/script.js"></script>
+    <script defer src="https://lk.easynetshop.ru/frontend/v5/ens-4e44247d.js"></script>
+    <style>.powered {display:none}</style>
+     
     
 </body>
 

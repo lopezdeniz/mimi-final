@@ -4,6 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title>Доставка суши, роллов и пиццы Кострома - МиМи суши</title>
+    <link href="https://lk.easynetshop.ru/frontend/v5/ens-4e44247d.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/style2.css">
     <link rel="stylesheet" href="css/style3.css">
@@ -43,14 +44,9 @@ include('nav.php')
   Филадельфия, Филадельфия с Креветкой, Калифорния Снежная, Калифорния с Лососем (990гр)</p>
   <h2 class="text2"><span style="font-weight:bold">СЕТ №1 </span></h2>
   
-  <div class="product__quantity"></div>
+  
   <div class="btn-cont">
-    <a class="button" data-sb-id-or-vendor-code="СЕТ №1"
-  data-sb-product-name="СЕТ №1"
-  data-sb-product-price="999"
-  data-sb-product-quantity="1"
-  data-sb-product-img="./img/set1-card.png" href="#">
-  Добавить</a>
+  <a class="btn-ens-action" data-rel="4e44247d307621">Добавить</a>
   </div>
 </div>
 
@@ -63,14 +59,9 @@ include('nav.php')
   <p class="text">Темпура Драгон, Темпура ролл с Креветкой, Темпура Калифорния, Темпура Филадельфия (990гр.)</p>
   <h2 class="text2"><span style="font-weight:bold">СЕТ №2 Темпура</span></h2>
   
-  <div class="product__quantity"></div>
+  
   <div class="btn-cont">
-    <a class="button" data-sb-id-or-vendor-code="СЕТ №2 Темпура"
-  data-sb-product-name="СЕТ №2 Темпура"
-  data-sb-product-price="900"
-  data-sb-product-quantity="1"
-  data-sb-product-img="./img/set2-card.png" href="#">
-  Добавить</a>
+  <a class="btn-ens-action" data-rel="4e44247d307622">Добавить</a>
   </div>
 </div>
 
@@ -83,14 +74,9 @@ include('nav.php')
   <p class="text">Суши спайси Унаги, Суши спайси Лосось, Суши спайси Креветка(1000гр.)</p>
   <h2 class="text2"><span style="font-weight:bold">СЕТ №3 Гункан</span></h2>
   
-  <div class="product__quantity"></div>
+  
   <div class="btn-cont">
-    <a class="button" data-sb-id-or-vendor-code="СЕТ №3 Гункан"
-  data-sb-product-name="СЕТ №3 Гункан"
-  data-sb-product-price="999"
-  data-sb-product-quantity="1"
-  data-sb-product-img="./img/set3-card.png" href="#">
-  Добавить</a>
+  <a class="btn-ens-action" data-rel="4e44247d307623">Добавить</a>
   </div>
 </div>
 
@@ -171,6 +157,8 @@ include('nav.php')
     </main>
 
     <script src="js/script.js"></script>
+    <script defer src="https://lk.easynetshop.ru/frontend/v5/ens-4e44247d.js"></script>
+    <style>.powered {display:none}</style>
    
 </body>
 

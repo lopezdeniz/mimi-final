@@ -4,6 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title>Доставка суши, роллов и пиццы Кострома - МиМи суши</title>
+    <link href="https://lk.easynetshop.ru/frontend/v5/ens-4e44247d.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/style2.css">
     <link rel="stylesheet" href="css/media-config.css">
@@ -173,7 +174,7 @@ include('nav.php')
       <img
         src="img/govyadina-card.png"
         alt="Роллы"/>
-      />
+      
     </a>
     <!-- Скидка на товар -->
     <div class="card__label">-10%</div>
@@ -201,7 +202,7 @@ include('nav.php')
       <img
         src="img/salats-card.png"
         alt="Роллы"/>
-      />
+      
     </a>
     <!-- Скидка на товар -->
     <div class="card__label">-10%</div>
@@ -388,7 +389,9 @@ include('nav.php')
 
 
     <script src="js/script.js"></script>
-    
+    <script defer src="https://lk.easynetshop.ru/frontend/v5/ens-4e44247d.js"></script>
+    <style>.powered {display:none}</style>
+
 </body>
 
 </html>

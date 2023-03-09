@@ -4,6 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title>Доставка суши, роллов и пиццы Кострома - МиМи суши</title>
+    <link href="https://lk.easynetshop.ru/frontend/v5/ens-4e44247d.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/style2.css">
     <link rel="stylesheet" href="css/style3.css">
@@ -44,14 +45,9 @@ include('nav.php')
  (320гр)</p>
   <h2 class="text2"><span style="font-weight:bold">ПОКЕ С КРЕВЕТКАМИ</span></h2>
   
-  <div class="product__quantity"></div>
+  
   <div class="btn-cont">
-    <a class="button" data-sb-id-or-vendor-code="ПОКЕ С КРЕВЕТКАМИ"
-  data-sb-product-name="ПОКЕ С КРЕВЕТКАМИ"
-  data-sb-product-price="320"
-  data-sb-product-quantity="1"
-  data-sb-product-img="./img/poke-krevet-card.png" href="#">
-  Добавить</a>
+  <a class="btn-ens-action" data-rel="4e44247d307649">Добавить</a>
   </div>
 </div>
 
@@ -64,14 +60,9 @@ include('nav.php')
   <p class="text">Рис паровой, Лосось для суши, Чука, Огурцы, Черри, Фасоль Эдамамэ, Харумаки на Харбинский, Нори, Кунжут. На доставку + соевый соус (320гр.)</p>
   <h2 class="text2"><span style="font-weight:bold">ПОКЕ С ЛОСОСЕМ</span></h2>
   
-  <div class="product__quantity"></div>
+  
   <div class="btn-cont">
-    <a class="button" data-sb-id-or-vendor-code="ПОКЕ С ЛОСОСЕМ"
-  data-sb-product-name="ПОКЕ С ЛОСОСЕМ"
-  data-sb-product-price="330"
-  data-sb-product-quantity="1"
-  data-sb-product-img="./img/poke-losos-card.png" href="#">
-  Добавить</a>
+  <a class="btn-ens-action" data-rel="4e44247d307650">Добавить</a>
   </div>
 </div>
 
@@ -145,6 +136,9 @@ include('nav.php')
     </main>
 
     <script src="js/script.js"></script>
+    <script defer src="https://lk.easynetshop.ru/frontend/v5/ens-4e44247d.js"></script>
+    <style>.powered {display:none}</style>
+    
     
 </body>
 

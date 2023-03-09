@@ -4,6 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title>Доставка суши, роллов и пиццы Кострома - МиМи суши</title>
+    <link href="https://lk.easynetshop.ru/frontend/v5/ens-4e44247d.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/style2.css">
     <link rel="stylesheet" href="css/style3.css">
@@ -44,16 +45,9 @@ include('nav.php')
   <h2 class="text2"><span style="font-weight:bold">РАМЕН С КУРИЦЕЙ 
 В ДАШИДО</span></h2>
   
-  <div class="product__quantity"></div>
+  
   <div class="btn-cont">
-    <a class="button" data-sb-id-or-vendor-code="РАМЕН С КУРИЦЕЙ 
-В ДАШИДО"
-  data-sb-product-name="РАМЕН С КУРИЦЕЙ 
-В ДАШИДО"
-  data-sb-product-price="330"
-  data-sb-product-quantity="1"
-  data-sb-product-img="./img/ramen-cur-card.png" href="#">
-  Добавить</a>
+  <a class="btn-ens-action" data-rel="4e44247d307643">Добавить</a>
   </div>
 </div>
 
@@ -67,16 +61,9 @@ include('nav.php')
   <h2 class="text2"><span style="font-weight:bold">ЛАПША УДОН 
 С КУРИЦЕЙ</span></h2>
   
-  <div class="product__quantity"></div>
+  
   <div class="btn-cont">
-    <a class="button" data-sb-id-or-vendor-code="ЛАПША УДОН 
-С КУРИЦЕЙ"
-  data-sb-product-name="ЛАПША УДОН 
-С КУРИЦЕЙ"
-  data-sb-product-price="310"
-  data-sb-product-quantity="1"
-  data-sb-product-img="./img/lapsh-cur-card.png" href="#">
-  Добавить</a>
+  <a class="btn-ens-action" data-rel="4e44247d307644">Добавить</a>
   </div>
 </div>
 
@@ -89,14 +76,9 @@ include('nav.php')
   <p class="text">Лапша рисовая, Соус, Соус Чили сладкий, Молоко кокосовое, Соль (260гр.)</p>
   <h2 class="text2"><span style="font-weight:bold">ЛАПША С ОВОЩАМИ</span></h2>
   
-  <div class="product__quantity"></div>
+  
   <div class="btn-cont">
-    <a class="button" data-sb-id-or-vendor-code="ЛАПША С ОВОЩАМИ"
-  data-sb-product-name="ЛАПША С ОВОЩАМИ"
-  data-sb-product-price="260"
-  data-sb-product-quantity="1"
-  data-sb-product-img="./img/lapsha-ovoshi-card.png" href="#">
-  Добавить</a>
+  <a class="btn-ens-action" data-rel="4e44247d307645">Добавить</a>
   </div>
 </div>
 
@@ -112,16 +94,9 @@ include('nav.php')
   <h2 class="text2"><span style="font-weight:bold">ЛАПША УДОН 
 С ГОВЯДИНОЙ</span></h2>
   
-  <div class="product__quantity"></div>
+  
   <div class="btn-cont">
-    <a class="button" data-sb-id-or-vendor-code="ЛАПША УДОН 
-С ГОВЯДИНОЙ"
-  data-sb-product-name="ЛАПША УДОН 
-С ГОВЯДИНОЙ"
-  data-sb-product-price="360"
-  data-sb-product-quantity="1"
-  data-sb-product-img="./img/lapsha-gov-card.png" href="#">
-  Добавить</a>
+  <a class="btn-ens-action" data-rel="4e44247d307646">Добавить</a>
   </div>
 </div>
 
@@ -135,14 +110,9 @@ include('nav.php')
 молотый, Молоко  (280гр.)</p>
   <h2 class="text2"><span style="font-weight:bold">ЧИКЕН С РИСОМ</span></h2>
   
-  <div class="product__quantity"></div>
+  
   <div class="btn-cont">
-    <a class="button" data-sb-id-or-vendor-code="ЧИКЕН С РИСОМ"
-  data-sb-product-name="ЧИКЕН С РИСОМ"
-  data-sb-product-price="299"
-  data-sb-product-quantity="1"
-  data-sb-product-img="./img/chiken-ris-card.png" href="#">
-  Добавить</a>
+  <a class="btn-ens-action" data-rel="4e44247d307647">Добавить</a>
   </div>
 </div>
 
@@ -155,14 +125,9 @@ include('nav.php')
   <p class="text">Рис, Соль (85гр.)</p>
   <h2 class="text2"><span style="font-weight:bold">Рис на Пару</span></h2>
   
-  <div class="product__quantity"></div>
+  
   <div class="btn-cont">
-    <a class="button" data-sb-id-or-vendor-code="Рис на Пару"
-  data-sb-product-name="Рис на Пару"
-  data-sb-product-price="120"
-  data-sb-product-quantity="1"
-  data-sb-product-img="./img/ris-paravoy-card.png" href="#">
-  Добавить</a>
+  <a class="btn-ens-action" data-rel="4e44247d307648">Добавить</a>
   </div>
 </div>
 
@@ -236,6 +201,9 @@ include('nav.php')
     </main>
 
     <script src="js/script.js"></script>
+    <script defer src="https://lk.easynetshop.ru/frontend/v5/ens-4e44247d.js"></script>
+    <style>.powered {display:none}</style>
+     
     
 </body>
 

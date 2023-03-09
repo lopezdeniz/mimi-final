@@ -4,6 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title>Доставка суши, роллов и пиццы Кострома - МиМи суши</title>
+    <link href="https://lk.easynetshop.ru/frontend/v5/ens-4e44247d.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/style2.css">
     <link rel="stylesheet" href="css/style3.css">
@@ -43,14 +44,9 @@ include('nav.php')
   Капуста китайская, Цукини, Морковь, Перец разноцветный, Лук репчатый, Чеснок, Соевый светлый, Соус Терияки, Рис паровой, Яйцо, Кунжут, Перец ч/м (330гр)</p>
   <h2 class="text2"><span style="font-weight:bold">ТЯХАН</span></h2>
   
-  <div class="product__quantity"></div>
+  
   <div class="btn-cont">
-    <a class="button" data-sb-id-or-vendor-code="ТЯХАН"
-  data-sb-product-name="ТЯХАН"
-  data-sb-product-price="260"
-  data-sb-product-quantity="1"
-  data-sb-product-img="./img/tyahan-php-card.png" href="#">
-  Добавить</a>
+  <a class="btn-ens-action" data-rel="4e44247d307640">Добавить</a>
   </div>
 </div>
 
@@ -63,14 +59,9 @@ include('nav.php')
   <p class="text">Капуста китайская, Цукини, Яйцо, Перец разноцветный, Лук репчатый, Чеснок, Соевый светлый, Бедро, Соус Терияки, Рис паровой, Морковь, Кунжут черный, Перец ч/м (370гр.)</p>
   <h2 class="text2"><span style="font-weight:bold">ТЯХАН С КУРИЦЕЙ</span></h2>
   
-  <div class="product__quantity"></div>
+  
   <div class="btn-cont">
-    <a class="button" data-sb-id-or-vendor-code="ТЯХАН С КУРИЦЕЙ"
-  data-sb-product-name="ТЯХАН С КУРИЦЕЙ"
-  data-sb-product-price="310"
-  data-sb-product-quantity="1"
-  data-sb-product-img="./img/tyahan-cura-card.png" href="#">
-  Добавить</a>
+  <a class="btn-ens-action" data-rel="4e44247d307641">Добавить</a>
   </div>
 </div>
 
@@ -84,16 +75,9 @@ include('nav.php')
   <h2 class="text2"><span style="font-weight:bold">ТЯХАН 
 С МОРЕПРОДУКТАМИ</span></h2>
   
-  <div class="product__quantity"></div>
+  
   <div class="btn-cont">
-    <a class="button" data-sb-id-or-vendor-code="ТЯХАН 
-С МОРЕПРОДУКТАМИ"
-  data-sb-product-name="ТЯХАН 
-С МОРЕПРОДУКТАМИ"
-  data-sb-product-price="320"
-  data-sb-product-quantity="1"
-  data-sb-product-img="./img/tyahan-more-card.png" href="#">
-  Добавить</a>
+  <a class="btn-ens-action" data-rel="4e44247d307642">Добавить</a>
   </div>
 </div>
 
@@ -168,6 +152,9 @@ include('nav.php')
     </main>
 
     <script src="js/script.js"></script>
+    <script defer src="https://lk.easynetshop.ru/frontend/v5/ens-4e44247d.js"></script>
+    <style>.powered {display:none}</style>
+    
     
 </body>
 

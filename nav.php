@@ -30,9 +30,7 @@
                 <h4>Позвонить нам</h4></div>
         </a>
 
-        <a class="btn-cart" href="">
-            <img class="mycart" src="img/mycart.png">
-        </a>
+        
 </div>
 
         <div class="hamburger-menu">
@@ -178,6 +176,25 @@
 		});
 	</script>           
 
+
+
+<script>   
+	document.addEventListener("EasyNetShopLoaded", function(event) {
+   		/* Текст, который мы хотим добавить. Пишем В ОДНУ СТРОКУ без переносов */
+   		var selhtml = 'Нажимая на кнопку ЗАКАЗАТЬ Вы даете согласие на обработку указанных персональных данных в соответствии с законом РФ (152-ФЗ) и подтверждаете, что ознакомлены с <a href="politika.html">политикой конфиденциальности компании</a>';
+	
+	
+		/* Оформляем текст */
+		var fhtml = '';
+		fhtml += '<div style="padding:0px 20px;">';
+		fhtml +=         selhtml;
+		fhtml += '</div>';
+
+
+		/* Добавляем в окно корзины */
+		ens_jQuery('.easynetshop-modal-cart .easynetshop-footer').before(fhtml);
+	}, false);
+</script>
 
 </main>
     

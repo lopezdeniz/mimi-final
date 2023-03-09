@@ -4,6 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title>Доставка суши, роллов и пиццы Кострома - МиМи суши</title>
+    <link href="https://lk.easynetshop.ru/frontend/v5/ens-4e44247d.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/style2.css">
     <link rel="stylesheet" href="css/style3.css">
@@ -47,15 +48,8 @@ include('nav.php')
 </div>
   <p class="text">Рис, Нори, Васаби, Креветка темпура, Сыр, Авокадо, Майонез, Тобико оранжевая, Тобико зеленая (200гр)</p>
   <h2 class="text2"><span style="font-weight:bold">Инь-Янь </span></h2>
-  
-  <div class="product__quantity"></div>
   <div class="btn-cont">
-    <a class="button" data-sb-id-or-vendor-code="Инь-Янь"
-  data-sb-product-name="Инь-Янь"
-  data-sb-product-price="260"
-  data-sb-product-quantity="1"
-  data-sb-product-img="./img/in-card.jpg" href="#">
-  Добавить</a>
+  <a class="btn-ens-action" data-rel="4e44247d160020">Добавить</a>
   </div>
 </div>
 
@@ -67,15 +61,8 @@ include('nav.php')
 </div>
   <p class="text">Рис, Нори, Васаби, Снежный краб, Авокадо, Майонез, Тобико черная (200гр)</p>
   <h2 class="text2"><span style="font-weight:bold">Калифорния Снежная </span></h2>
-  
-  <div class="product__quantity"></div>
   <div class="btn-cont">
-    <a class="button" data-sb-id-or-vendor-code="Калифорния Снежная"
-  data-sb-product-name="Калифорния Снежная"
-  data-sb-product-price="260"
-  data-sb-product-quantity="1"
-  data-sb-product-img="./img/snej-card.png" href="#">
-  Добавить</a>
+  <a class="btn-ens-action" data-rel="4e44247d307552">Добавить</a>
   </div>
 </div>
 
@@ -88,14 +75,9 @@ include('nav.php')
   <p class="text">Нори, Рис, Васаби, Огурцы, Сыр, Лосось (220гр)</p>
   <h2 class="text2"><span style="font-weight:bold">Филадельфия </span></h2>
   
-  <div class="product__quantity"></div>
+  
   <div class="btn-cont">
-    <a class="button" data-sb-id-or-vendor-code="Филадельфия"
-  data-sb-product-name="Филадельфия"
-  data-sb-product-price="350"
-  data-sb-product-quantity="1"
-  data-sb-product-img="./img/fil-card.png" href="#">
-  Добавить</a>
+  <a class="btn-ens-action" data-rel="4e44247d307602">Добавить</a>
   </div>
 </div>
 
@@ -110,14 +92,9 @@ include('nav.php')
  (200гр)</p>
   <h2 class="text2"><span style="font-weight:bold">Калифорния с Лососем </span></h2>
   
-  <div class="product__quantity"></div>
+ 
   <div class="btn-cont">
-    <a class="button" data-sb-id-or-vendor-code="Калифорния с Лососем"
-  data-sb-product-name="Калифорния с Лососем"
-  data-sb-product-price="330"
-  data-sb-product-quantity="1"
-  data-sb-product-img="./img/kalif-losos-card.png" href="#">
-  Добавить</a>
+  <a class="btn-ens-action" data-rel="4e44247d307603">Добавить</a>
   </div>
 </div>
 
@@ -130,14 +107,9 @@ include('nav.php')
 </div>
   <p class="text">Нори, Рис, Васаби, Огурцы, Сыр Суси, Чука салат, Креветка, Тобико оранжевая (200гр)</p>
   <h2 class="text2"><span style="font-weight:bold"> Филадельфия с Креветкой</span></h2>
-  <div class="product__quantity"></div>
+  
   <div class="btn-cont">
-    <a class="button" data-sb-id-or-vendor-code="Филадельфия с Креветкой"
-  data-sb-product-name="Филадельфия с Креветкой"
-  data-sb-product-price="330"
-  data-sb-product-quantity="1"
-  data-sb-product-img="./img/fil-crevet-card.png" href="#">
-  Добавить</a>
+  <a class="btn-ens-action" data-rel="4e44247d307604">Добавить</a>
   </div>
 </div>
 
@@ -150,14 +122,9 @@ include('nav.php')
 </div>
   <p class="text">Рис, Сыр, Огурцы, Клубника, Лосось, Тобико черная (230гр)</p>
   <h2 class="text2"><span style="font-weight:bold">Ролл Мега</span></h2>
-  <div class="product__quantity"></div>
+  
   <div class="btn-cont">
-    <a class="button" data-sb-id-or-vendor-code="Ролл Мега"
-  data-sb-product-name="Ролл Мега"
-  data-sb-product-price="320"
-  data-sb-product-quantity="1"
-  data-sb-product-img="./img/mega-card.png" href="#">
-  Добавить</a>
+  <a class="btn-ens-action" data-rel="4e44247d307605">Добавить</a>
   </div>
 </div>
 
@@ -170,14 +137,9 @@ include('nav.php')
 </div>
   <p class="text">Рис, Васаби, Нори, Айсберг, Сыр Тофу, Сыр, Огурцы, Омлет, Угорь, Соус Унаги, Кунжут (210гр)</p>
   <h2 class="text2"><span style="font-weight:bold">Драгон Ролл</span></h2>
-  <div class="product__quantity"></div>
+  
   <div class="btn-cont">
-    <a class="button" data-sb-id-or-vendor-code="Драгон Ролл"
-  data-sb-product-name="Драгон Ролл"
-  data-sb-product-price="360"
-  data-sb-product-quantity="1"
-  data-sb-product-img="./img/dragon-card.png" href="#">
-  Добавить</a>
+  <a class="btn-ens-action" data-rel="4e44247d307606">Добавить</a>
   </div>
 </div>
 
@@ -190,14 +152,9 @@ include('nav.php')
 </div>
   <p class="text">Лосось, Спайс, Рис, Васаби, Нори, Тобико оранжевая (210гр)</p>
   <h2 class="text2"><span style="font-weight:bold">Биг Спаси с Лососем</span></h2>
-  <div class="product__quantity"></div>
+  
   <div class="btn-cont">
-    <a class="button" data-sb-id-or-vendor-code="Биг Спаси с Лососем"
-  data-sb-product-name="Биг Спаси с Лососем"
-  data-sb-product-price="245"
-  data-sb-product-quantity="1"
-  data-sb-product-img="./img/big-card.png" href="#">
-  Добавить</a>
+  <a class="btn-ens-action" data-rel="4e44247d307607">Добавить</a>
   </div>
 </div>
 
@@ -210,14 +167,9 @@ include('nav.php')
 </div>
   <p class="text">Креветка, Спайс, Рис, Васаби, Нори, Спайс, Тобика черная (200гр)</p>
   <h2 class="text2"><span style="font-weight:bold">Биг Спайси с Креветкой</span></h2>
-  <div class="product__quantity"></div>
+  
   <div class="btn-cont">
-    <a class="button" data-sb-id-or-vendor-code="Биг Спайси с Креветкой"
-  data-sb-product-name="Биг Спайси с Креветкой"
-  data-sb-product-price="240"
-  data-sb-product-quantity="1"
-  data-sb-product-img="./img/krevetka-card.png" href="#">
-  Добавить</a>
+  <a class="btn-ens-action" data-rel="4e44247d307608">Добавить</a>
   </div>
 </div>
 
@@ -231,14 +183,9 @@ include('nav.php')
 </div>
   <p class="text">Рис, Васаби, Нори, Тобико черная, Майонез, Лосось, Огурцы, Мука, Тесто темпурное, Сухари Панко (240гр)</p>
   <h2 class="text2"><span style="font-weight:bold">Темпура Филадельфия</span></h2>
-  <div class="product__quantity"></div>
+  
   <div class="btn-cont">
-    <a class="button" data-sb-id-or-vendor-code="Темпура Филадельфия"
-  data-sb-product-name="Темпура Филадельфия"
-  data-sb-product-price="255"
-  data-sb-product-quantity="1"
-  data-sb-product-img="./img/tempuraf-card.png" href="#">
-  Добавить</a>
+  <a class="btn-ens-action" data-rel="4e44247d307609">Добавить</a>
   </div>
 </div>
 
@@ -253,14 +200,9 @@ include('nav.php')
 </div>
   <p class="text">Рис, Васаби, Нори, Креветка, Сыр, Мука, Тесто Темпурное, Сухари Панко (200гр)</p>
   <h2 class="text2"><span style="font-weight:bold">Темпура с Креветкой</span></h2>
-  <div class="product__quantity"></div>
+  
   <div class="btn-cont">
-    <a class="button" data-sb-id-or-vendor-code="Темпура с Креветкой"
-  data-sb-product-name="Темпура с Креветкой"
-  data-sb-product-price="280"
-  data-sb-product-quantity="1"
-  data-sb-product-img="./img/tempurak-card.png" href="#">
-  Добавить</a>
+  <a class="btn-ens-action" data-rel="4e44247d307610">Добавить</a>
   </div>
 </div>
 
@@ -273,14 +215,9 @@ include('nav.php')
 </div>
   <p class="text">Рис, Васаби, Нори, Тобико зеленая, Соус ББ, Снежный краб, Авокадо, Мука, Темпура, Сухари Панко (240гр)</p>
   <h2 class="text2"><span style="font-weight:bold">Темпура Калифорния</span></h2>
-  <div class="product__quantity"></div>
+  
   <div class="btn-cont">
-    <a class="button" data-sb-id-or-vendor-code="Темпура Калифорния"
-  data-sb-product-name="Темпура Калифорния"
-  data-sb-product-price="245"
-  data-sb-product-quantity="1"
-  data-sb-product-img="./img/tempura-kali-card.png" href="#">
-  Добавить</a>
+  <a class="btn-ens-action" data-rel="4e44247d307611">Добавить</a>
   </div>
 </div>
 
@@ -293,14 +230,9 @@ include('nav.php')
 </div>
   <p class="text">Рис, Васаби, Нори, Лосось, Соус Спайс, Айсберг, Авокадо, Тобико зеленая, Мука, Тесто темпурное, Сухари Панко (200гр)</p>
   <h2 class="text2"><span style="font-weight:bold">Темпура с Лососем</span></h2>
-  <div class="product__quantity"></div>
+  
   <div class="btn-cont">
-    <a class="button" data-sb-id-or-vendor-code="Темпура с Лососем"
-  data-sb-product-name="Темпура с Лососем"
-  data-sb-product-price="280"
-  data-sb-product-quantity="1"
-  data-sb-product-img="./img/tempuralos-card.png" href="#">
-  Добавить</a>
+  <a class="btn-ens-action" data-rel="4e44247d307612">Добавить</a>
   </div>
 </div>
 
@@ -314,14 +246,9 @@ include('nav.php')
   <p class="text">Рис, Васаби, Нори, Сыр, Огурцы, Авокадо, Соус Унаги, Угорь, Лосось, Тесто темпурное, Сухари Панко, 
 Кунжут(220гр)</p>
   <h2 class="text2"><span style="font-weight:bold">Темпура Драгон</span></h2>
-  <div class="product__quantity"></div>
+  
   <div class="btn-cont">
-    <a class="button" data-sb-id-or-vendor-code="Темпура Драгон"
-  data-sb-product-name="Темпура Драгон"
-  data-sb-product-price="310"
-  data-sb-product-quantity="1"
-  data-sb-product-img="./img/etmpura-dragon-card.png" href="#">
-  Добавить</a>
+  <a class="btn-ens-action" data-rel="4e44247d307613">Добавить</a>
   </div>
 </div>
 
@@ -386,7 +313,9 @@ include('nav.php')
 
 
     <script src="js/script.js"></script>
-    
+    <script defer src="https://lk.easynetshop.ru/frontend/v5/ens-4e44247d.js"></script>
+    <style>.powered {display:none}</style>
+ 
 </body>
 
 </html>

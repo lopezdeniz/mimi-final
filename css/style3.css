@@ -28,7 +28,7 @@
   border: 1px solid rgb(255, 255, 255);
   box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
   text-align: center;
-  padding-bottom: 58px;
+  padding-bottom: 53px;
 
 }
 
@@ -54,7 +54,24 @@
   justify-content: center;
 }
 
-
+.btn-ens-action {
+  width: 60px;
+  max-height: 40px; 
+  background-color: #fa0000;
+  display: block;
+  width: 100%;
+  font-weight: 400;
+  font-size: 19px;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ff2a2a;
+  border-radius: 4px;
+  cursor: pointer; /* Меняем курсор при наведении */
+  transition: 0.2s;
+  margin-top: auto; /* Прижимаем кнопку к низу карточки */
+  text-decoration: none;
+}
 
 .button {
   width: 60px;

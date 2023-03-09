@@ -4,6 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title>Доставка суши, роллов и пиццы Кострома - МиМи суши</title>
+    <link href="https://lk.easynetshop.ru/frontend/v5/ens-4e44247d.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/style2.css">
     <link rel="stylesheet" href="css/style3.css">
@@ -44,14 +45,9 @@ include('nav.php')
 На доставку + Шрираши (700гр)</p>
   <h2 class="text2"><span style="font-weight:bold">Фо-Бо</span></h2>
   
-  <div class="product__quantity"></div>
+  
   <div class="btn-cont">
-    <a class="button" data-sb-id-or-vendor-code="Фо-Бо"
-  data-sb-product-name="Фо-Бо"
-  data-sb-product-price="399"
-  data-sb-product-quantity="1"
-  data-sb-product-img="./img/fo-bo-card.png" href="#">
-  Добавить</a>
+  <a class="btn-ens-action" data-rel="4e44247d307634">Добавить</a>
   </div>
 </div>
 
@@ -64,14 +60,9 @@ include('nav.php')
   <p class="text">Креветки, Кинза, Кальмары бланш, Том Ям, Шампиньоны бланш, Черри, Перец чили красный (340гр.)</p>
   <h2 class="text2"><span style="font-weight:bold">Том-Ям Сифуд </span></h2>
   
-  <div class="product__quantity"></div>
+  
   <div class="btn-cont">
-    <a class="button" data-sb-id-or-vendor-code="Том-Ям Сифуд"
-  data-sb-product-name="Том-Ям Сифуд"
-  data-sb-product-price="350"
-  data-sb-product-quantity="1"
-  data-sb-product-img="./img/tomyam-card.png" href="#">
-  Добавить</a>
+  <a class="btn-ens-action" data-rel="4e44247d307635">Добавить</a>
   </div>
 </div>
 
@@ -84,14 +75,9 @@ include('nav.php')
   <p class="text">Бульон Мисо (330гр.)</p>
   <h2 class="text2"><span style="font-weight:bold">Мисо</span></h2>
   
-  <div class="product__quantity"></div>
+  
   <div class="btn-cont">
-    <a class="button" data-sb-id-or-vendor-code="Мисо"
-  data-sb-product-name="Мисо"
-  data-sb-product-price="210"
-  data-sb-product-quantity="1"
-  data-sb-product-img="./img/miso-card.png" href="#">
-  Добавить</a>
+  <a class="btn-ens-action" data-rel="4e44247d307636">Добавить</a>
   </div>
 </div>
 
@@ -151,6 +137,9 @@ include('nav.php')
     </main>
 
     <script src="js/script.js"></script>
+    <script defer src="https://lk.easynetshop.ru/frontend/v5/ens-4e44247d.js"></script>
+    <style>.powered {display:none}</style>
+    
     
 </body>
 
