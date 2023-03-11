@@ -391,6 +391,21 @@ include('nav.php')
     <script src="js/script.js"></script>
     <script defer src="https://lk.easynetshop.ru/frontend/v5/ens-4e44247d.js"></script>
     <style>.powered {display:none}</style>
+    <style>
+   .navtext {
+    text-align:  center;
+    font-size: 24px;
+   }
+  </style>
+  <div class="navtext">
+  <br> 
+<strong><p>Как добраться ? </p></strong>
+  </div>
+  <br> 
+    <section>
+    <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A23ae31c3fda4fade9a741380d98b0e6cc3fe7bc0b7c35c1575129ca844511c80&amp;width=100%25&amp;height=370&amp;lang=ru_RU&amp;scroll=true"></script>
+</section>
+
 
 </body>
 

@@ -42,6 +42,7 @@
             <ul class="menu__box">
                 <li><a class="menu__item" href="#" style="color:black">Акции</a></li>
                 <li><a class="menu__item" href="rolls.php">Роллы</a></li>
+             
                 <li><a class="menu__item" href="sushi.php">Суши</a></li>
                 <li><a class="menu__item" href="#">Пицца</a></li>
                 <li><a class="menu__item" href="sets.php">Сеты</a></li>
@@ -76,6 +77,7 @@
         <div class="conteiner-menu">    
             
             <a class="item_menu" href="rolls.php"><img class="roll" src="img/roll.png" alt="Роллы"> Роллы</a>
+
             <a class="item_menu" href="sushi.php"><img class="sushi" src="img/sushi.png" alt="Суши"> Суши</a>
             <a class="item_menu" href="sets.php"><img class="sets" src="img/sets.png" alt="Сеты"> Сеты</a>
             <a class="item_menu" href="#"><img class="pizza" src="img/pizza.png" alt="Пицца"> Пицца</a>
