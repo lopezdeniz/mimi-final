@@ -1,4 +1,6 @@
-
+<head>
+<link rel="icon" href="favicon-32x32.png">
+</head>
 <header class="header">
   
         <div class="logo">
@@ -44,7 +46,7 @@
                 <li><a class="menu__item" href="rolls.php">Роллы</a></li>
              
                 <li><a class="menu__item" href="sushi.php">Суши</a></li>
-                <li><a class="menu__item" href="#">Пицца</a></li>
+                <li><a class="menu__item" href="pizza.php">Пицца</a></li>
                 <li><a class="menu__item" href="sets.php">Сеты</a></li>
                 <li><a class="menu__item" href="goryachie.php">Горячие Блюда</a></li>
                 <li><a class="menu__item" href="fastfood.php">Фастфуд</a></li>
@@ -62,7 +64,7 @@
 
     <main>
 <div class="button-700">
-    <a class="btn-call2" href="tel:+79932342397">
+    <a class="btn-call2" href="tel:+79652787034">
             <i class="fa fa-phone fa-2x" aria-hidden="true"></i>
             <div class="call-text2">
                 <h4> Позвонить нам</h4></div>
@@ -70,7 +72,7 @@
 </div>
 
         <section class="baner">
-<img class="baner-site" src="img/baner.png">
+<img class="baner-site" src="img/baner2.png">
         </section>
 <!-- Меню боковое -->
         <section class="menu">
@@ -80,7 +82,7 @@
 
             <a class="item_menu" href="sushi.php"><img class="sushi" src="img/sushi.png" alt="Суши"> Суши</a>
             <a class="item_menu" href="sets.php"><img class="sets" src="img/sets.png" alt="Сеты"> Сеты</a>
-            <a class="item_menu" href="#"><img class="pizza" src="img/pizza.png" alt="Пицца"> Пицца</a>
+            <a class="item_menu" href="pizza.php"><img class="pizza" src="img/pizza.png" alt="Пицца"> Пицца</a>
             <a class="item_menu" href="fastfood.php"><img class="fastfood"  src="img/burger.png" alt="Фастфуд"> Фастфуд</a>
             <a class="item_menu" href="salats.php"><img class="salats"  src="img/salats.png" alt="Салаты"> Салаты</a>
             <a class="item_menu" href="sope.php"><img class=" sope" src="img/sope.png" alt="Супы"> Супы</a>
@@ -143,7 +145,7 @@
 
 
 
-
+            
 
 
 

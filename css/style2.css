@@ -138,6 +138,31 @@ background-color: #fa0000;
   text-decoration: none;
 }
 
+.card__add3 {
+  background-color: #fa0000;
+    display: block;
+    width: 100%;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ff2a2a;
+    border-radius: 4px;
+    cursor: pointer; /* Меняем курсор при наведении */
+    transition: 0.2s;
+    margin-top: auto; /* Прижимаем кнопку к низу карточки */
+    text-decoration: none;
+  }
+
+
+
+
+
+
+
+
+
 .card__add:hover {
   border: 1px solid #ff6633;
   background-color: #ff6633;

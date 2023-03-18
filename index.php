@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <title>Доставка суши, роллов и пиццы Кострома - МиМи суши</title>
     <link href="https://lk.easynetshop.ru/frontend/v5/ens-4e44247d.css" rel="stylesheet">
+    <link rel="icon" href="favicon-32x32.png">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/style2.css">
     <link rel="stylesheet" href="css/media-config.css">
@@ -15,7 +16,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Бесплатная доставка суши, роллов и пиццы на дом — вкусно, дешево, быстро, заказ онлайн или по телефону. Мы готовим только из свежих продуктов высокого качества.">
     <meta name="keywords" content="доставка пиццы, заказ пиццы, пицца круглосуточно, суши, роллы, доставка суши, заказ суши, суши круглосуточно, доставка роллов, заказ роллов, роллы круглосуточно">
-    
+   <!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();
+   for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+   k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(92807488, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true,
+        ecommerce:"dataLayer"
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/92807488" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter --><!-- .НфтвучюЬуекшлф сщгтеук -->
+
 </head>
 
 <body>
@@ -28,8 +47,38 @@ include('nav.php')
 
 
     <div class="cards" >
+
+
+    <!-- Карточка товара -->
+    <div class="card">
+  <!-- Верхняя часть -->
+  <div class="card__top">
+    <!-- Изображение-ссылка товара -->
+    <a href="saile.php" class="card__image">
+      <img
+        src="./img/saile.jpg"
+        alt="Роллы"
+      />
+    </a>
+    <!-- Скидка на товар -->
+    <div class="card__label">Блюда в Подарок!</div>
+  </div>
+  <!-- Нижняя часть -->
+  <div class="card__bottom">
+    <!-- Цены на товар (с учетом скидки и без)-->
     
-                  
+    <!-- Ссылка-название товара -->
+    <a href="saile.php" class="card__title">
+     Акции
+    </a>
+    <!-- Кнопка добавить в корзину -->
+    <a href=saile.php class="roll-add2"><button class="card__add">Выбрать</button></a>
+  </div>
+</div>
+            
+
+
+
 <!-- Карточка товара -->
      <div class="card">
   <!-- Верхняя часть -->
@@ -62,7 +111,7 @@ include('nav.php')
   <!-- Верхняя часть -->
   <div class="card__top">
     <!-- Изображение-ссылка товара -->
-    <a href="#" class="card__image">
+    <a href="pizza.php" class="card__image">
       <img
         src="img/pizza-card2.jpg"
         alt="Роллы"
@@ -76,11 +125,11 @@ include('nav.php')
     <!-- Цены на товар (с учетом скидки и без)-->
     
     <!-- Ссылка-название товара -->
-    <a href="#" class="card__title">
+    <a href="pizza.php" class="card__title">
      Пицца
     </a>
     <!-- Кнопка добавить в корзину -->
-    <button class="card__add">Выбрать</button>
+    <a href=pizza.php class="roll-add2"><button class="card__add">Выбрать</button></a>
   </div>
 </div>
 
@@ -91,7 +140,7 @@ include('nav.php')
     <!-- Изображение-ссылка товара -->
     <a href="sushi.php" class="card__image">
       <img
-        src="img/sushi-card.jpg">
+        src="img/sushi-card.jpg"
         alt="Роллы"
       />
     </a>
@@ -405,6 +454,9 @@ include('nav.php')
     <section>
     <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A23ae31c3fda4fade9a741380d98b0e6cc3fe7bc0b7c35c1575129ca844511c80&amp;width=100%25&amp;height=370&amp;lang=ru_RU&amp;scroll=true"></script>
 </section>
+<br> 
+<br> 
+<br> 
 
 
 </body>
