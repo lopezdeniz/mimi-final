@@ -21,7 +21,7 @@
         </div>
 
 
-        <h5 class="delivery">Доставка:<br>+79652787034</h5>
+        <h5 class="delivery">Доставка:<br>+79932342397</h5>
 
 
 

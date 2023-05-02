@@ -133,10 +133,36 @@ include('nav.php')
 
 
 
+<!-- Карточка товара 1111111111 -->
+<div class="block">
+    <div class="card-price">
+  <img src="./img/1515.png"alt="">
+  <div class="card__label2">899&#8381</div>
+</div>
+  <p class="text">Ролл Кострома. роллы с Угрем и  лососем. Ролл креветки. Филадельфия люкс(1кг.)</p>
+  <h2 class="text2"><span style="font-weight:bold">сет №7</span></h2>
+  
+  
+  <div class="btn-cont">
+  <a class="btn-ens-action" data-rel="4e44247d310975">Добавить</a>
+  </div>
+</div>
 
 
-
-
+<!-- Карточка товара 1111111111 -->
+<div class="block">
+    <div class="card-price">
+  <img src="./img/1616.png"alt="">
+  <div class="card__label2">1300&#8381</div>
+</div>
+  <p class="text">Ролл Кострома  ролл сакура.  ролл снежный  краб. ролл нежный. Ролл куриный. Ролл Весна(1.2кг.)</p>
+  <h2 class="text2"><span style="font-weight:bold">сет №8</span></h2>
+  
+  
+  <div class="btn-cont">
+  <a class="btn-ens-action" data-rel="4e44247d307964">Добавить</a>
+  </div>
+</div>
 
 
 

@@ -144,10 +144,68 @@ include('nav.php')
   </div>
 </div>
 
+<!-- Карточка товара 11111111111 -->
+<div class="block">
+    <div class="card-price">
+  <img src="./img/1313.png"alt="">
+  <div class="card__label2">100&#8381</div>
+</div>
+  <p class="text">Куриные крылышки, соус, кунжут(200гр.)</p>
+  <h2 class="text2"><span style="font-weight:bold">Куриные крылышки 3ШТ</span></h2>
+  
+  
+  <div class="btn-cont">
+  <a class="btn-ens-action" data-rel="4e44247d310971">Добавить</a>
+  </div>
+</div>
 
 
+<!-- Карточка товара 11111111111 -->
+<div class="block">
+    <div class="card-price">
+  <img src="./img/1313.png"alt="">
+  <div class="card__label2">200&#8381</div>
+</div>
+  <p class="text">Куриные крылышки, соус, кунжут(400гр.)</p>
+  <h2 class="text2"><span style="font-weight:bold">Куриные крылышки 6ШТ</span></h2>
+  
+  
+  <div class="btn-cont">
+  <a class="btn-ens-action" data-rel="4e44247d310972">Добавить</a>
+  </div>
+</div>
 
 
+<!-- Карточка товара 11111111111 -->
+<div class="block">
+    <div class="card-price">
+  <img src="./img/1313.png"alt="">
+  <div class="card__label2">300&#8381</div>
+</div>
+  <p class="text">Куриные крылышки, соус, кунжут(600гр.)</p>
+  <h2 class="text2"><span style="font-weight:bold">Куриные крылышки 9ШТ</span></h2>
+  
+  
+  <div class="btn-cont">
+  <a class="btn-ens-action" data-rel="4e44247d310973">Добавить</a>
+  </div>
+</div>
+
+
+<!-- Карточка товара 11111111111 -->
+<div class="block">
+    <div class="card-price">
+  <img src="./img/1414.png"alt="">
+  <div class="card__label2">220&#8381</div>
+</div>
+  <p class="text">Огурцы свежие, огурцы маринованные. помидоры свежие. Морковь корейская. капуста Айсберг,  соус черешня и соус фирменный для шаурмы(400гр.)</p>
+  <h2 class="text2"><span style="font-weight:bold">Шаурма на тарелке </span></h2>
+  
+  
+  <div class="btn-cont">
+  <a class="btn-ens-action" data-rel="4e44247d310974">Добавить</a>
+  </div>
+</div>
 
 
 
